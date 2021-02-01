@@ -163,7 +163,7 @@ body{
 		padding-top: 6%;
 		padding-bottom: 0%;
 		padding-left: 1%;
-		padding-right: 1%;
+		padding-right: 6%;
 		font-style: italic;
 		border: 2px solid violet;
 		border-radius: 15px;
@@ -254,7 +254,7 @@ body{
 	}
 
 	#logo_footer{
-		width: 10%;
+		display: none;
 	}
 
 }
