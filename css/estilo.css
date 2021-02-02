@@ -5,6 +5,9 @@ body{
 }
 
 
+
+
+
 @media only screen and (min-width: 1000px) {
 	#header{
 		margin-left: 10%;
@@ -12,6 +15,12 @@ body{
 		padding-bottom: 3%;
 		padding-top: -2%;
 		width: 90%;
+	}
+
+	p{
+		font-family:  Amatic SC;
+		font-weight: bold;
+		font-size: 40px;
 	}
 
 	header{
@@ -25,18 +34,18 @@ body{
 	}
 
 	#titulo{
-		color: #DA70D6;
+		color: #009900;
 		margin-top: 3%;
 		margin-left: 8%;
 		padding-top: 4%;
 		padding-bottom: 4%;
-		padding-left: 3%;
+		padding-left: 2%;
 		padding-right: 3%;
-		font-style: italic;
-		border: 2px solid violet;
+		/*border: 2px solid violet;*/
 		border-radius: 15px;
-		font-family: Apple Chancery, cursive;
-		font-size: 50px;
+		font-family:  Amatic SC;
+		font-weight: bold;
+		font-size: 60px;
 	}
 
 	#nav_header{
@@ -47,11 +56,13 @@ body{
 	#nav_header a{
 		display: block;
 		text-decoration: none;
-		color: #DA70D6;
+		color: #009900;
 		margin-bottom: 4%;
 		text-align: right;
 		margin-right: 35%;
-		font-size: 20px;
+		font-family: Amatic SC;
+		font-size: 30px; 
+		font-weight: bold;
 
 	}
 
@@ -60,7 +71,7 @@ body{
 	}
 
 	#nav_header a:first-child{
-		margin-top: 28%;
+		margin-top: 22%;
 
 	}
 
@@ -89,6 +100,12 @@ body{
 		padding-top: 2%;
 	}
 
+	#subo{
+		font-family:  Amatic SC;
+		font-weight: bold;
+		font-size: 50px;
+	}
+
 	#menu_bar{
 		background-color: #6495ED; 
 		padding-left: 10%;
@@ -100,7 +117,7 @@ body{
 		color: white;
 		padding-top: 2%;
 		padding-bottom: 2%;
-		padding-left: 5%;
+		padding-left: 3%;
 		padding-right: 5%;
 		
 	}
@@ -108,6 +125,9 @@ body{
 	.box_item a{
 		text-decoration: none;
 		color: white;
+		font-family:  Amatic SC;
+		font-size: 35px; 
+		font-weight: bold;
 	}
 	.box_item:hover{
 		background-color: deeppink;
@@ -125,13 +145,10 @@ body{
 	}
 
 	footer p{
-		margin-left: 5%;
+		margin-left: 10%;
 		margin-top: 3.5%;
 	}
 
-	#logo_footer{
-		width: 10%;
-	}
 }
 
 
@@ -146,6 +163,7 @@ body{
 		width: 90%;
 	}
 
+
 	header{
 		display: flex;
 	}
@@ -157,18 +175,18 @@ body{
 	}
 
 	#titulo{
-		color: #DA70D6;
-		margin-top: 5%;
-		margin-left: 4%;
-		padding-top: 6%;
-		padding-bottom: 0%;
-		padding-left: 1%;
-		padding-right: 6%;
-		font-style: italic;
-		border: 2px solid violet;
+		color: #009900;
+		margin-top: 6%;
+		margin-left: 1%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		padding-left: 2%;
+		padding-right: 3%;
+		/*border: 2px solid violet;*/
 		border-radius: 15px;
-		font-family: Apple Chancery, cursive;
-		font-size: 13px;
+		font-family:  Amatic SC;
+		font-weight: bold;
+		font-size: 18px;
 	}
 
 	#nav_header{
@@ -176,14 +194,20 @@ body{
 
 	}
 
+	.corpo{
+		text-indent: 50px; font-size: 30px;
+	}
+
 	#nav_header a{
 		display: block;
 		text-decoration: none;
-		color: #DA70D6;
+		color: #009900;
 		margin-bottom: 4%;
 		text-align: right;
-		margin-right: 35%;
-		font-size: 8px;
+		margin-right: 23%;
+		font-family:  Amatic SC;
+		font-weight: bold;
+		font-size: 10px;
 
 	}
 
@@ -192,7 +216,7 @@ body{
 	}
 
 	#nav_header a:first-child{
-		margin-top: 28%;
+		margin-top: 22%;
 
 	}
 
@@ -215,6 +239,18 @@ body{
 		padding-top: 2%;
 	}
 
+	.corpo{
+		font-family:  Amatic SC;
+		font-weight: bold;
+		text-indent: 50px; font-size: 20px;
+	}
+
+	#subo{
+		font-family:  Amatic SC;
+		font-weight: bold;
+		font-size: 30px;
+	}
+
 	#menu_bar{
 		background-color: #6495ED; 
 		padding-left: 3%;
@@ -234,18 +270,22 @@ body{
 	.box_item a{
 		text-decoration: none;
 		color: white;
-		font-size: 10px;
+		font-size: 15px;
+		font-family:  Amatic SC;
+		font-weight: bold;
 	}
 
 
 	footer{
 		padding: 2%;
 		display: flex;
-		font-size: 10px;
+		font-size: 15px;
 		margin-top: 8%;
 		background-color: #6495ED;
 		color: white;
-		padding-left: 15%;
+		padding-left: 18%;
+		font-family:  Amatic SC;
+		font-weight: bold;
 	}
 
 	footer p{
@@ -253,8 +293,6 @@ body{
 		margin-top: 5%;
 	}
 
-	#logo_footer{
-		display: none;
-	}
+	
 
 }
